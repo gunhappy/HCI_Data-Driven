@@ -1,15 +1,15 @@
 <template>
   <nav class="navbar navbar-dark bg-primary bg-faded">
-    <a class="navbar-brand" href="#">Gold Price</a>
+    <router-link to="/"><a href="#" class="navbar-brand">{{title}}</a></router-link>
     <ul class="nav navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Current Price</a>
+      <li class="nav-item" >
+        <router-link to="/"><a class="nav-link" href="#">Current Price</a></router-link>
+      </li>
+      <li class="nav-item" >
+        <router-link to="/monthly"><a class="nav-link" href="#">Graph Monthly</a></router-link>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Graph Monthly</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Graph Yearly</a>
+        <router-link to="/yearly"><a class="nav-link" href="#">Graph Yearly</a></router-link>
       </li>
     </ul>
   </nav>
@@ -20,6 +20,7 @@ export default {
   name: 'navbar',
   data () {
     return {
+      title:'Gold Price'
     }
   }
 }

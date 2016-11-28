@@ -1,6 +1,6 @@
 <template>
   <div class="yearly">
-    
+    <h1>this is yearly page</h1>
   </div>
 </template>
 
