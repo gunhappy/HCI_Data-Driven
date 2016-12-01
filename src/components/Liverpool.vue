@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <div class="container">
-      <h1>Liverpool Wining Match Appearance</h1>
+      <h1>Liverpool Rating</h1>
+      <div id="rating-chart"></div>
+      <h1>Liverpool Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>
         <span><strong>Top Eleven Most Wining Match Appearance : </strong><span class="text-danger">Philippe Coutinho</span>, <span class="text-danger">Roberto Firmino</span>, Sadio Mane, Jordan Henderson, James Milner, <span class="text-danger">Adam Lallana</span>, Emre Can, Nathaniel Clyne, Georginio Wijnaldum, Loris Karius</span>
@@ -23,6 +25,15 @@
       }
     },
     mounted: ()=>{
+      var rchart = c3.generate({
+        bindto: '#rating-chart',
+
+        data: {
+          columns: [
+            ['Liverpool',7.03,6.48,6.76,7.42,6.98,7.5,7.03,6.69,7.05,7.22,7.78,6.88,7.13]
+          ]
+        }
+      });
       var chart = c3.generate({
         bindto: '#chart',
         data: {

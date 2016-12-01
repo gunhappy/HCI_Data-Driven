@@ -1,8 +1,16 @@
 <template>
   <div class="home">
     <div class="container">
-      <h1>Tottenham Hotspur Wining Match Appearance</h1>
+      <h1>Tottenham Hotspur Rating</h1>
+      <div id="rating-chart"></div>
+      <h1>Tottenham Hotspur Player Wining Match Appearance</h1>
       <div id="chart"></div>
+      <div>
+        <span><strong>Top Eleven Most Wining Match Appearance : </strong>Kyle Walker, Son Heung-Min, Jan Vertonghen, Victor Wanyama, Christian Eriksen, <span class="text-danger">Toby Alderweireld</span>, <span class="text-danger">Erik Lamela</span>, Dele Alli, Hugo Lloris, Eric Dier, Vincent Janssen</span>
+      </div>
+      <div>
+        <span><strong>Injuring Player : </strong>Ben Davies, <span class="text-danger">Erik Lamela</span>, <span class="text-danger">Toby Alderweireld</span> </span>
+      </div>
     </div>
   </div>
 </template>
@@ -17,6 +25,15 @@
       }
     },
     mounted: ()=>{
+      var rchart = c3.generate({
+        bindto: '#rating-chart',
+
+        data: {
+          columns: [
+            ['Tottenham',6.77,7.04,6.76,7.47,7.15,6.88,7.14,6.95,6.81,6.9,6.7,6.69,6.66]
+          ]
+        }
+      });
       var chart = c3.generate({
         bindto: '#chart',
         data: {

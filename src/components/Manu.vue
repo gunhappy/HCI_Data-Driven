@@ -1,8 +1,16 @@
 <template>
   <div class="home">
     <div class="container">
-      <h1>Manchester United Wining Match Appearance</h1>
+      <h1>Manchester United Rating</h1>
+      <div id="rating-chart"></div>
+      <h1>Manchester United Player Wining Match Appearance</h1>
       <div id="chart"></div>
+      <div>
+        <span><strong>Top Eleven Most Wining Match Appearance : </strong>Paul Pogba, Daley Blind, Zlatan Ibrahimovic, Antonio Martial, Juan Mata, Ander Herrera, Eric Bailly, Marouane Fellaini, Wayne Rooney, Anthony Martial, David de Gea</span>
+      </div>
+      <div>
+        <span><strong>Injuring Player : </strong>Eric Bailly, Chris Smalling, James Wilson</span>
+      </div>
     </div>
   </div>
 </template>
@@ -17,6 +25,15 @@
       }
     },
     mounted: ()=>{
+      var rchart = c3.generate({
+        bindto: '#rating-chart',
+
+        data: {
+          columns: [
+            ['Manchester United',7.05,7.14,7.14,6.81,6.47,7.34,6.97,7.25,6.26,7.09,7.1,6.82,6.92]
+          ]
+        }
+      });
       var chart = c3.generate({
         bindto: '#chart',
         data: {

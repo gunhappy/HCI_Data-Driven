@@ -1,7 +1,9 @@
 <template>
   <div class="home">
     <div class="container">
-      <h1>Arsenal Wining Match Appearance</h1>
+      <h1>Arsenal Rating</h1>
+      <div id="rating-chart"></div>
+      <h1>Arsenal Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>
         <span><strong>Top Eleven Most Wining Match Appearance : </strong>Alexis Sánchez, Laurent Koscielny, Mesut Özil, Theo Walcott, Shkodran Mustafi, Nacho Monreal,<span class="text-danger"> Héctor Bellerín</span>, <span class="text-danger">Santi Cazorla</span>, Granit Xhaka, Alex Iwobi</span>
@@ -23,6 +25,15 @@
       }
     },
     mounted: ()=>{
+      var rchart = c3.generate({
+        bindto: '#rating-chart',
+
+        data: {
+          columns: [
+            ['Arsenal',6.68,7.09,7.42,6.88,7.05,7.41,7.18,7.02,7.03,6.13,6.71,7.82,7.11]
+          ]
+        }
+      });
       var chart = c3.generate({
         bindto: '#chart',
         data: {

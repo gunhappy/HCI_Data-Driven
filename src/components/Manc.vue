@@ -1,8 +1,16 @@
 <template>
   <div class="home">
     <div class="container">
-      <h1>Manchester City Wining Match Appearance</h1>
+      <h1>Manchester City Rating</h1>
+      <div id="rating-chart"></div>
+      <h1>Manchester City Player Wining Match Appearance</h1>
       <div id="chart"></div>
+      <div>
+        <span><strong>Top Eleven Most Wining Match Appearance : </strong>Nicolas Otamendi, Sergio Aguero, Kevin De Bruyne, <span class="text-danger">Raheem Sterling</span>, Fernandinho, David Silva, Aleksandar Kolarov, John Stones, Nolito, Bacary Sagna, Claudio Bravo</span>
+      </div>
+      <div>
+        <span><strong>Injuring Player : </strong><span class="text-danger">Raheem Sterling</span>, Vincent Kompany, Fabian Delph</span>
+      </div>
     </div>
   </div>
 </template>
@@ -17,6 +25,15 @@
       }
     },
     mounted: ()=>{
+      var rchart = c3.generate({
+        bindto: '#rating-chart',
+
+        data: {
+          columns: [
+            ['Manchester City',6.73,7.3,7.19,7.01,7.57,7.09,6.72,6.77,6.64,7.41,6.91,6.94,6.99]
+          ]
+        }
+      });
       var chart = c3.generate({
         bindto: '#chart',
         data: {
