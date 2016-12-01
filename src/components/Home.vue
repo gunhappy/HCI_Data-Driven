@@ -26,6 +26,8 @@
       </div>
       <h1>Rating Comparision</h1>
       <div id="rating-chart"></div>
+      <h1>Rival Rating</h1>
+      <div id="rival-chart"></div>
     </div>
   </div>
 </template>
@@ -142,6 +144,22 @@ export default {
           ['Manchester United',7.05,7.14,7.14,6.81,6.47,7.34,6.97,7.25,6.26,7.09,7.1,6.82,6.92],
           ['Tottenham',6.77,7.04,6.76,7.47,7.15,6.88,7.14,6.95,6.81,6.9,6.7,6.69,6.66]
         ]
+      }
+    });
+    var rivalchart = c3.generate({
+      bindto: '#rival-chart',
+      data: {
+        type:"bar",
+        columns: [
+          ['Home',6.7,7.02,6.8,6.9,6.91],
+          ['Away',7.04,7.12,7.07,6.95,6.6]
+        ]
+      },
+      axis: {
+        x: {
+          type: 'category',
+          categories: ['West Ham vs Arsenal','Manchester City vs Chelsea','Bournemouth vs Liverpool','Everton vs Manchester United','Tottenham Hotspur vs Swansea']
+        }
       }
     });
   }
