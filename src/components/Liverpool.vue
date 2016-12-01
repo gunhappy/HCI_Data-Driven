@@ -3,6 +3,12 @@
     <div class="container">
       <h1>Liverpool Wining Match Appearance</h1>
       <div id="chart"></div>
+      <div>
+        <span><strong>Top Eleven Most Wining Match Appearance : </strong><span class="text-danger">Philippe Coutinho</span>, <span class="text-danger">Roberto Firmino</span>, Sadio Mane, Jordan Henderson, James Milner, <span class="text-danger">Adam Lallana</span>, Emre Can, Nathaniel Clyne, Georginio Wijnaldum, Loris Karius</span>
+      </div>
+      <div>
+        <span><strong>Injuring Player : </strong><span class="text-danger">Philippe Coutinho</span>, <span class="text-danger">Roberto Firmino</span>, Joel Matip, Adam Bogdan, <span class="text-danger">Adam Lallana</span>, Daniel Ings, Sheyi Ojo</span>
+      </div>
     </div>
   </div>
 </template>
