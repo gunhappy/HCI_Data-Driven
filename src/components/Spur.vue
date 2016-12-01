@@ -3,6 +3,9 @@
     <div class="container">
       <h1>Tottenham Hotspur Rating</h1>
       <div id="rating-chart"></div>
+      <div>
+        Max = 7.47 Average = 6.91 Min = 6.66
+      </div>
       <h1>Tottenham Hotspur Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>

@@ -3,6 +3,9 @@
     <div class="container">
       <h1>Manchester United Rating</h1>
       <div id="rating-chart"></div>
+      <div>
+        Max = 7.34 Average = 6.95 Min = 6.26
+      </div>
       <h1>Manchester United Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>

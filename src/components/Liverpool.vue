@@ -3,6 +3,9 @@
     <div class="container">
       <h1>Liverpool Rating</h1>
       <div id="rating-chart"></div>
+      <div>
+        Max = 7.78 Average = 7.07 Min = 6.48
+      </div>
       <h1>Liverpool Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>

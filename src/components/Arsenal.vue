@@ -3,6 +3,9 @@
     <div class="container">
       <h1>Arsenal Rating</h1>
       <div id="rating-chart"></div>
+      <div>
+        Max = 7.82 Average = 7.04 Min = 6.13
+      </div>
       <h1>Arsenal Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>

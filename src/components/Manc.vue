@@ -3,6 +3,9 @@
     <div class="container">
       <h1>Manchester City Rating</h1>
       <div id="rating-chart"></div>
+      <div>
+        Max = 7.57 Average = 7.02 Min = 6.64
+      </div>
       <h1>Manchester City Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>

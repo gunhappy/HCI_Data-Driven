@@ -3,6 +3,9 @@
     <div class="container">
       <h1>Chelsea Rating</h1>
       <div id="rating-chart"></div>
+      <div>
+        Max = 7.88 Average = 7.12 Min = 6.28
+      </div>
       <h1>Chelsea Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>
