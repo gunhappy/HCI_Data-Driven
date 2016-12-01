@@ -4,16 +4,17 @@
     <div class="main">
       <router-view></router-view>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar'
-
+import Footer from './components/Footer'
 export default {
   name: 'app',
   components: {
-    Navbar
+    Navbar,Footer
   }
 }
 </script>
@@ -23,9 +24,8 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 }
 body{
-  
+  padding-top: 70px;
 }
 </style>
