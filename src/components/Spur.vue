@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="container">
-      <h1>Tottenham Hotspur Barclay Premier League Point</h1>
+      <h1>Tottenham Hotspur Wining Match Appearance</h1>
       <div id="chart"></div>
     </div>
   </div>
@@ -20,8 +20,31 @@
       var chart = c3.generate({
         bindto: '#chart',
         data: {
+          type:"bar",
           columns: [
-          ['Tottenham Hotspur',0,4,5,5,8,11,14,17,17,18,19,20,21,21,24,24,24]
+            ['Danny Rose',3],
+            ['Mousa Dembélé',2],
+            ['Kyle Walker',6],
+            ['Son Heung-Min',5],
+            ['Jan Vertonghen',6],
+            ['Harry Kane',4],
+            ['Victor Wanyama',6],
+            ['Christian Eriksen',5],
+            ['Ben Davies',3],
+            ['Toby Alderweireld',5]
+            ,['Erik Lamela',5]
+            ,['Dele Alli',6],
+            ['Michel Vorm',1],
+            ['Hugo Lloris',5]
+            ,['Eric Dier',5],
+            ['Moussa Sissoko',4]
+            ,['Harry Winks',2]
+            ,['Vincent Janssen',6],
+            ['Kevin Wimmer',0],
+            ['Georges-Kévin Nkoudou',2],
+            ['Kieran Trippier',1],
+            ['Josh Onomah',1],
+            ['Tom Carroll',1],
           ]
       }
     });
