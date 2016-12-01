@@ -26,6 +26,6 @@ export default {
   text-align: center;
 }
 body{
-  background-color: #84add6;
+  
 }
 </style>

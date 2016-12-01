@@ -9,6 +9,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "c3": "^0.4.11",
     "vue": "^2.1.0",
     "vue-resource": "^1.0.3",
     "vue-router": "^2.0.3",
