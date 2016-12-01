@@ -3,6 +3,27 @@
     <div class="container">
       <h1>Manchester City Barclay Premier League Point</h1>
       <div id="chart"></div>
+      <h1>Available Player</h1>
+      <div class="row">
+        <div class="col-xs-4">
+          <div id="ars-chart"></div>
+        </div>
+        <div class="col-xs-4">
+          <div id="chel-chart"></div>
+        </div>
+        <div class="col-xs-4">
+          <div id="liv-chart"></div>
+        </div>
+        <div class="col-xs-4">
+          <div id="mc-chart"></div>
+        </div>
+        <div class="col-xs-4">
+          <div id="mu-chart"></div>
+        </div>
+        <div class="col-xs-4">
+          <div id="ts-chart"></div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -17,6 +38,84 @@ export default {
     }
   },
   mounted: ()=>{
+    var arschart = c3.generate({
+      bindto: '#ars-chart',
+      data: {
+        type:"donut",
+        columns: [
+          ['Avaiable',9],
+          ['Injury',2],
+        ]
+      },
+      donut: {
+        title: "Arsenal"
+      }
+    });
+    var chelchart = c3.generate({
+      bindto: '#chel-chart',
+      data: {
+        type:"donut",
+        columns: [
+          ['Avaiable',11],
+          ['Injury',0],
+        ]
+      },
+      donut: {
+        title: "Chelsea"
+      }
+    });
+    var livchart = c3.generate({
+      bindto: '#liv-chart',
+      data: {
+        type:"donut",
+        columns: [
+          ['Avaiable',8],
+          ['Injury',3],
+        ]
+      },
+      donut: {
+        title: "Liverpool"
+      }
+    });
+    var mcchart = c3.generate({
+      bindto: '#mc-chart',
+      data: {
+        type:"donut",
+        columns: [
+          ['Avaiable',10],
+          ['Injury',1],
+        ]
+      },
+      donut: {
+        title: "Manchester City"
+      }
+    });
+    var muchart = c3.generate({
+      bindto: '#mu-chart',
+      data: {
+        type:"donut",
+        columns: [
+          ['Avaiable',11],
+          ['Injury',0],
+        ]
+      },
+      donut: {
+        title: "Manchester United"
+      }
+    });
+    var tschart = c3.generate({
+      bindto: '#ts-chart',
+      data: {
+        type:"donut",
+        columns: [
+          ['Avaiable',9],
+          ['Injury',2],
+        ]
+      },
+      donut: {
+        title: "Tottenham Hotspur"
+      }
+    });
     var chart = c3.generate({
       bindto: '#chart',
       data: {
