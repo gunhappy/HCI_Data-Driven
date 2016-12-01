@@ -3,6 +3,12 @@
     <div class="container">
       <h1>Arsenal Wining Match Appearance</h1>
       <div id="chart"></div>
+      <div>
+        <span><strong>Top Eleven Most Wining Match Appearance : </strong>Alexis Sánchez, Laurent Koscielny, Mesut Özil, Theo Walcott, Shkodran Mustafi, Nacho Monreal,<span class="text-danger"> Héctor Bellerín</span>, <span class="text-danger">Santi Cazorla</span>, Granit Xhaka, Alex Iwobi</span>
+      </div>
+      <div>
+        <span><strong>Injuring Player : </strong>Mohamed Elneny, Yaya Sanogo, Mathieu Debuchy, Olivier Giroud,<span class="text-danger"> Hector Bellerin</span>,<span class="text-danger"> Santi Cazorla</span>, Chuba Akpom, Per Mertesacker, Danny Welbeck</span>
+      </div>
     </div>
   </div>
 </template>
