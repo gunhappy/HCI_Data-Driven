@@ -3,6 +3,12 @@
     <div class="container">
       <h1>Chelsea Wining Match Appearance</h1>
       <div id="chart"></div>
+      <div>
+        <span><strong>Top Eleven Most Wining Match Appearance : </strong>Eden Hazard, Diego Costa, Nemanja Matic, Cecar Azpilicueta, Victor Moses, Pedro, Gary Cahill, Thibaut Courtois, Oscar, David Luiz</span>
+      </div>
+      <div>
+        <span><strong>Injuring Player : </strong>John Terry, Mikel John Obi</span>
+      </div>
     </div>
   </div>
 </template>
