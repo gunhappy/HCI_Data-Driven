@@ -29,10 +29,10 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 All right of data is served to
 
-[Whoscored](https://www.whoscored.com/)
+* [Whoscored](https://www.whoscored.com/)
 
-[PhysioRoom](http://www.physioroom.com/)
+* [PhysioRoom](http://www.physioroom.com/)
 
 All right of icon is served to
 
-[Icon 8](https://icons8.com/)
+* [Icon 8](https://icons8.com/)
