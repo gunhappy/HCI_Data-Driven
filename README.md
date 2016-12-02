@@ -1,6 +1,10 @@
-# hci-datadriven
+# Barclay Premier League Data Visualization
 
-> A Vue.js project
+This project is used for showing the way to represent the data by visualization.
+
+# Objective
+
+We will use this instead of any slide to predict the rank of Top 6 Team in Barclay Premier League
 
 ## Build Setup
 
