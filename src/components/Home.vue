@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="container">
-      <h1>Manchester City Barclay Premier League Point</h1>
+      <h1>Barclay Premier League Point</h1>
       <div id="chart"></div>
       <h1>Available Player</h1>
       <div class="row">
