@@ -6,6 +6,9 @@
       <div>
         Max = 7.78 Average = 7.07 Min = 6.48
       </div>
+      <div>
+        This chart is show the changing of rating for their team.
+      </div>
       <h1>Liverpool Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>

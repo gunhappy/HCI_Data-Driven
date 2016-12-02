@@ -6,6 +6,9 @@
       <div>
         Max = 7.88 Average = 7.12 Min = 6.28
       </div>
+      <div>
+        This chart is show the changing of rating for their team.
+      </div>
       <h1>Chelsea Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>

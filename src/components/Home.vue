@@ -3,6 +3,18 @@
     <div class="container">
       <h1>Barclay Premier League Point</h1>
       <div id="chart"></div>
+      <div>
+        From this chart, you will see that each of top 6 position always change until last week.
+      </div>
+      <div>
+        Chelsea is 1st
+      </div>
+      <div>
+        Liverpool is 2nd
+      </div>
+      <div>
+        Followed by Manchester City, Arsenal, Tottenham Hotspur and Manchester United in order.
+      </div>
       <h1>Available Player</h1>
       <div class="row">
         <div class="col-xs-4">
@@ -24,10 +36,46 @@
           <div id="ts-chart"></div>
         </div>
       </div>
+      <div>
+        From this six donut charts, it show that Liverpool doesn't have good situation in their team 3 of their main player are injured. (Liverpool rating is increasing every week by this player)
+      </div>
+      <div>
+        Arsenal and Spur are in bad time too.
+      </div>
+      <div>
+        Raheem Sterling is injured, this might make the speed of Manchester City is slower a lot.
+      </div>
       <h1>Rating Comparision</h1>
       <div id="rating-chart"></div>
+      <div>
+        You will see that the rating of each top 6 team is swinging a lot. But top 4 time always keep their standard as you can see from the average of each that none of it below 7 .
+      </div>
+      <div>
+        However Manchester United did better in last match .
+      </div>
+      <div>
+        But on the other hand Tottenham Hotspur have a bad situation the rating of them is going down... If Tottenham Hotspur can't improve their form, it might be a chance for Manchester United to climb to be top 5.
+      </div>
       <h1>Rival Rating</h1>
       <div id="rival-chart"></div>
+      <div>
+        <strong>"West Ham vs Arsenal"</strong> : Arsenal have 2 of their main player is injured which is right back and midfielder, but it might not the hard problem for Arsenal because they have Xhaka and Mustafi who can replace Gonzala and Hector
+        and West Ham rating is much different from Arsenal. This mean they are in bad time to face with Arsenal. This is chance of Arsenal to win.
+      </div>
+      <div>
+        <strong>"Manchester City vs Chelsea"</strong> : It's bad time for Manchester City who lose Raheem Sterling this mean the speed of attack game of Manchester City is decrease a lot. The great wall of EPL, Chelsea might have a better chance to win because all of top eleven squad is fit and ready to face any rival. Chelsea will have better chance to grab the victory in this match.
+      </div>
+      <div>
+        <strong>"Bournemouth vs Liverpool"</strong> : So sad for Liverpool who lost 3 of their main player for this game. The attacking game of Liverpool might be not good as it should be. If Bournemouth use defensive and counter attack game, Liverpool might be in the really bad situation. I'm Liverpool Fan and it is difficult to say that it's not a time for Liverpool to win.
+      </div>
+      <div>
+        <strong>"Everton vs Manchester United"</strong> : Everton and Manchester United isn't much different. (Except the case of value of team) This match might be the match of fire or the most boring match. From the rating and fitness of player, it's difficult to predict who will win. So I decide to said that they will draw.
+      </div>
+      <div>
+        <strong>"Tottenham Hotspur vs Swansea"</strong> : It's time for Tottenham Hotspur to prove that the top of table is place for them. There are two game that Tottenham Hotspur is not play in good form. Swansea is very different to Tottenham by the rating. This time Tottenham Hotspur might prove themself by grab the victory in their hand.
+      </div>
+      <h1>Prediction</h1>
+      <h5>According my prediction : Chelsea,Arsenal,Liverpool,Manchester City, Tottenham Hotspur, and Manchester United</h5>
     </div>
   </div>
 </template>

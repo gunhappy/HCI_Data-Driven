@@ -6,6 +6,9 @@
       <div>
         Max = 7.47 Average = 6.91 Min = 6.66
       </div>
+      <div>
+        This chart is show the changing of rating for their team.
+      </div>
       <h1>Tottenham Hotspur Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>

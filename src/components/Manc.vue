@@ -6,6 +6,9 @@
       <div>
         Max = 7.57 Average = 7.02 Min = 6.64
       </div>
+      <div>
+        This chart is show the changing of rating for their team.
+      </div>
       <h1>Manchester City Player Wining Match Appearance</h1>
       <div id="chart"></div>
       <div>
