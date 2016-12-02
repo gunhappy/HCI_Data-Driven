@@ -35,6 +35,14 @@
           columns: [
             ['Liverpool',7.03,6.48,6.76,7.42,6.98,7.5,7.03,6.69,7.05,7.22,7.78,6.88,7.13]
           ]
+        },
+        axis: {
+            x: {
+                label: 'Match Number'
+            },
+            y: {
+                label: 'Rating Number'
+            }
         }
       });
       var chart = c3.generate({
@@ -65,6 +73,14 @@
             ['Ovie Ejaria',1],
             ['Ben Woodburn',1]
           ]
+      },
+      axis: {
+          x: {
+              label: 'Football Player Name'
+          },
+          y: {
+              label: 'Number Of Win Times'
+          }
       }
     });
   }

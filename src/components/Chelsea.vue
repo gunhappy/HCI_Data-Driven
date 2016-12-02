@@ -35,6 +35,14 @@ export default {
         columns: [
           ['Chelsea',6.86,6.82,7.3,6.69,6.84,6.28,7.38,7.56,7.71,7.36,7.88,6.94,6.92]
         ]
+      },
+      axis: {
+          x: {
+              label: 'Match Number'
+          },
+          y: {
+              label: 'Rating Number'
+          }
       }
     });
     var chart = c3.generate({
@@ -65,6 +73,14 @@ export default {
           ['Ola Aina',1],
           ['Ruben Loftus-Cheek',1],
         ]
+      },
+      axis: {
+          x: {
+              label: 'Football Player Name'
+          },
+          y: {
+              label: 'Number Of Win Times'
+          }
       }
     });
   }

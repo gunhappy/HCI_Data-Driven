@@ -7,6 +7,7 @@ import Liverpool from '../components/Liverpool.vue'
 import Arsenal from '../components/Arsenal.vue'
 import Chelsea from '../components/Chelsea.vue'
 import Spur from '../components/Spur.vue'
+import Member from '../components/Member.vue'
 
 Vue.use(Router)
 export const routes = [
@@ -17,6 +18,7 @@ export const routes = [
   {path: '/arsenal', component: Arsenal},
   {path: '/chelsea', component: Chelsea},
   {path: '/spur', component: Spur},
+  {path: '/member', component: Member},
   {path: '*', redirect: '/'}
 ]
 

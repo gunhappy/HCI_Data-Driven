@@ -131,6 +131,14 @@ export default {
           ['Manchester United',0,6,9,9,9,9,12,13,13,13,14,15,18,18,19,20,20],
           ['Tottenham Hotspur',0,4,5,5,8,11,14,17,17,18,19,20,21,21,24,24,24]
         ]
+      },
+      axis: {
+          x: {
+              label: 'Match Number'
+          },
+          y: {
+              label: 'Cumulative Point'
+          }
       }
     });
     var rating_chart = c3.generate({
@@ -144,6 +152,14 @@ export default {
           ['Manchester United',7.05,7.14,7.14,6.81,6.47,7.34,6.97,7.25,6.26,7.09,7.1,6.82,6.92],
           ['Tottenham',6.77,7.04,6.76,7.47,7.15,6.88,7.14,6.95,6.81,6.9,6.7,6.69,6.66]
         ]
+      },
+      axis: {
+          x: {
+              label: 'Match Number'
+          },
+          y: {
+              label: 'Rating Number'
+          }
       }
     });
     var rivalchart = c3.generate({
@@ -158,7 +174,11 @@ export default {
       axis: {
         x: {
           type: 'category',
+          label: 'Rival Team Name',
           categories: ['West Ham vs Arsenal','Manchester City vs Chelsea','Bournemouth vs Liverpool','Everton vs Manchester United','Tottenham Hotspur vs Swansea']
+        },
+        y: {
+            label: 'Rating Number'
         }
       }
     });

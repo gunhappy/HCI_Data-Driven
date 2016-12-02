@@ -24,6 +24,9 @@
         <li class="nav-item">
           <router-link class="nav-link" to="/liv"><img src="https://maxcdn.icons8.com/Color/PNG/24/Logos/liverpool_fc-24.png" title="Liverpool FC" width="24"> Liverpool</router-link>
         </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/member"><img src="https://maxcdn.icons8.com/Color/PNG/24/Users/conference-24.png" title="Conference" width="24"> Member</router-link>
+        </li>
       </ul>
     </div>
   </nav>

@@ -35,6 +35,14 @@
           columns: [
             ['Manchester United',7.05,7.14,7.14,6.81,6.47,7.34,6.97,7.25,6.26,7.09,7.1,6.82,6.92]
           ]
+        },
+        axis: {
+            x: {
+                label: 'Match Number'
+            },
+            y: {
+                label: 'Rating Number'
+            }
         }
       });
       var chart = c3.generate({
@@ -67,6 +75,14 @@
             ['Timothy Fosu-Mensah',1],
             ['Memphis Depay',1]
           ]
+      },
+      axis: {
+          x: {
+              label: 'Football Player Name'
+          },
+          y: {
+              label: 'Number Of Win Times'
+          }
       }
     });
   }

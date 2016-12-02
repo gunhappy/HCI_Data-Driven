@@ -35,6 +35,14 @@
           columns: [
             ['Tottenham',6.77,7.04,6.76,7.47,7.15,6.88,7.14,6.95,6.81,6.9,6.7,6.69,6.66]
           ]
+        },
+        axis: {
+            x: {
+                label: 'Match Number'
+            },
+            y: {
+                label: 'Rating Number'
+            }
         }
       });
       var chart = c3.generate({
@@ -66,6 +74,14 @@
             ['Josh Onomah',1],
             ['Tom Carroll',1],
           ]
+      },
+      axis: {
+          x: {
+              label: 'Football Player Name'
+          },
+          y: {
+              label: 'Number Of Win Times'
+          }
       }
     });
   }

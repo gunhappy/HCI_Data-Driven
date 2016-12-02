@@ -35,6 +35,14 @@
           columns: [
             ['Manchester City',6.73,7.3,7.19,7.01,7.57,7.09,6.72,6.77,6.64,7.41,6.91,6.94,6.99]
           ]
+        },
+        axis: {
+            x: {
+                label: 'Match Number'
+            },
+            y: {
+                label: 'Rating Number'
+            }
         }
       });
       var chart = c3.generate({
@@ -67,6 +75,14 @@
             ['Aleix García',2],
             ['Fabian Delph',2],
           ]
+      },
+      axis: {
+          x: {
+              label: 'Football Player Name'
+          },
+          y: {
+              label: 'Number Of Win Times'
+          }
       }
     });
   }

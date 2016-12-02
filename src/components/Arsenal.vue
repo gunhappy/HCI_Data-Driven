@@ -35,6 +35,14 @@
           columns: [
             ['Arsenal',6.68,7.09,7.42,6.88,7.05,7.41,7.18,7.02,7.03,6.13,6.71,7.82,7.11]
           ]
+        },
+        axis: {
+            x: {
+                label: 'Match Number'
+            },
+            y: {
+                label: 'Rating Number'
+            }
         }
       });
       var chart = c3.generate({
@@ -67,6 +75,14 @@
             ['Lucas Pérez',2],
             ['Ainsley Maitland-Niles',1]
           ]
+      },
+      axis: {
+          x: {
+              label: 'Football Player Name'
+          },
+          y: {
+              label: 'Number Of Win Times'
+          }
       }
     });
   }
